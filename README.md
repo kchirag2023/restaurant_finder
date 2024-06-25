@@ -80,7 +80,16 @@ cd vectorize.py
 ```bash
 streamlit run vectorize.py
 ```
+#Note
+Don't forget to create .env file
+## .env
+AOAI_KEY="key"
+AOAI_ENDPOINT="_your_end_point"
+# Azure Cosmos DB connection string parameters
 
+
+# Construct connection string
+CONNECTION_STRING = f"your_db_connection_string"
 
 ## Contributor
 
