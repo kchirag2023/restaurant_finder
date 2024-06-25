@@ -80,7 +80,7 @@ cd vectorize.py
 ```bash
 streamlit run vectorize.py
 ```
-#Note
+# Note
 Don't forget to create .env file
 ## .env
 AOAI_KEY="key"
