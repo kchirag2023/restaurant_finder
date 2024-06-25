@@ -18,8 +18,10 @@ DATABASE_NAME = "restro"
 COMPLETIONS_DEPLOYMENT_NAME =  "gpt-35-turbo"
 
 # Azure OpenAI credentials and deployment names
-AOAI_ENDPOINT = os.environ.get("AOAI_ENDPOINT")
-AOAI_KEY = os.environ.get("AOAI_KEY")
+AOAI_KEY = st.secrets["AOAI_KEY"]
+AOAI_ENDPOINT = st.secrets["AOAI_ENDPOINT"]
+# AOAI_ENDPOINT = os.environ.get("AOAI_ENDPOINT")
+# AOAI_KEY = os.environ.get("AOAI_KEY")
 AOAI_API_VERSION = "2024-02-01"
 MODEL_NAME = "text-embedding-ada-002"  # Update with the correct model name
 
